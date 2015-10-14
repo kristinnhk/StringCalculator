@@ -12,6 +12,9 @@ import edu.princeton.cs.algs4.StdOut;
 
 //test 2. didn't have to change anything
 
+//test 3 my method doesn't specifically read delimiters but plucks the numbers
+//out of a string, it works on all test cases and i hope it's fine
+//although it doesn't use delimiters like i said.
 
 public class StringCalculator {
 	public static void main(String args[]){
@@ -29,7 +32,7 @@ public class StringCalculator {
 		Matcher m = p.matcher(numbers);
 		while (m.find()) {
 			result += Integer.parseInt(m.group());
-			System.out.println(m.group());
+			System.out.println(m.group()); //just for my own purpose while programming
 		}
 		System.out.println(result);
 		return 0;
