@@ -17,9 +17,12 @@ import edu.princeton.cs.algs4.StdOut;
 //test 4 my method doesn't specifically read delimiters but plucks the numbers
 //out of a string, it works on all test cases and i hope it's fine
 //although it doesn't use delimiters like i said. (
+
+//had to take a break between doing these unfortunately.. will practise some more on another repo
+
 //test 5 added a try catch block and an array to store all the negatives in the text
 //test 6 simple, only add number if it is less than 1000
-
+//my program already works for the rest of the tests so no changes after 6
 public class StringCalculator {
 	public static void main(String args[]){
 		StringCalculator calc = new StringCalculator();
