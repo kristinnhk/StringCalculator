@@ -6,6 +6,13 @@ import java.util.regex.Pattern;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
+
+
+//test 1. complete
+
+//test 2. didn't have to change anything
+
+
 public class StringCalculator {
 	public static void main(String args[]){
 		StringCalculator calc = new StringCalculator();
